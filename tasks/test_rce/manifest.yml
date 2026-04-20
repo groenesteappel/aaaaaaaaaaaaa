@@ -1,0 +1,18 @@
+id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
+version: 0.0.1
+title: "Injection Test\"><img src=x onerror=alert(document.domain)>{{7*7}}"
+description: |
+  Test"><img src=x onerror=alert(document.cookie)>{{7*7}}
+author: "pentester\"><svg/onload=alert(1)>"
+technique:
+  id: T1059
+  name: "Command Interpreter\"><h1>XSS</h1>{{7*7}}"
+  tactic: execution
+tags:
+  sophistication: low
+platforms:
+  - linux_x64
+runtime:
+  base_image: ghcr.io/crimson7research/hackerflow-sdk:0.2-python
+  entrypoint: python
+  command: index.py
