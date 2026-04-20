@@ -8,7 +8,9 @@ technique:
   id: T1059
   name: "Command Interpreter\"><h1>XSS</h1>{{7*7}}"
   tactic: execution
+tactic: execution
 tags:
+  attack_method: powershell
   sophistication: low
 platforms:
   - linux_x64
