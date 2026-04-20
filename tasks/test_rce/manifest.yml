@@ -12,6 +12,11 @@ tags:
   sophistication: low
 platforms:
   - linux_x64
+process_requirements:
+  integrity:
+    - medium
+  privileges: []
+  groups: []
 runtime:
   base_image: ghcr.io/crimson7research/hackerflow-sdk:0.2-python
   entrypoint: python
